@@ -1,5 +1,5 @@
 import argparse
-#from __init__ import project_settings, dl_login, sync_images_to_dataloop, sync_annotations_to_dataloop
+from . import project_settings, dl_login, sync_images_to_dataloop, sync_annotations_to_dataloop
 
 def main():
     parser = argparse.ArgumentParser()

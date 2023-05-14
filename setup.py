@@ -24,8 +24,7 @@ setup(
     },
     install_requires=[
         'boto3',
-        'dtlpy',
-        'argparse'
+        'dtlpy'
     ],
     entry_points='''
         [console_scripts]
